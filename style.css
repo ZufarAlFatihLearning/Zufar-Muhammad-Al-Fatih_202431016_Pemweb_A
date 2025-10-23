@@ -1,0 +1,90 @@
+/* Bagian Index.html */
+/* Mendesain Tampilan backgorund warna saja Pada index.htmlnya */
+body{
+    background-color: aqua;
+}
+
+/* Membuat tampilan borderpoto supaya menjadi border yang bulat di index.html */
+.ukuranpoto{
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid black;
+
+}
+
+/* Membuat Teks Box pada index.html */
+.kotakteks{
+    /* Mendesain tampilan pada teksbox supaya background putih */
+    background-color: #ffffff; 
+    border: 1px solid #ccc; 
+
+    /* Mengukur tampilan teks box agar menjadi rata tengah */
+    padding: 50px; 
+    max-width: 1200px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 4px; 
+    line-height: 1.6; 
+}
+
+/* Membuat tulisan atau mendesain tulisan pada teks paragraf di class kotakteks index.html */
+.kotakteks p{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* Bagian halaman2-Article.html */
+/* Mendesain Tampilan pada teksbox di display pdf agar lebih rapih */
+.pdfmuncul{
+    /* Mendesain bacground warna menjadi warna biru dan agar tidak kontras */
+    background-color: #3b74b5; 
+    border: 1px solid #2a5585;
+    
+    /* Mengukur panjang dan lebar teksbox pada display pdf */
+    margin: 10px;
+    height: 300px; 
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+/* Membuat tampilan teksbox pada header */
+.header{
+    /* Mendesain bacground warna menjadi warna biru dan agar tidak kontras */
+   background-color: #3b74b5; 
+    color: white;
+
+    /* Mengukur panjang dan lebar teksbox pada display pdf juga font stylenya */
+    padding: 20px 15px;
+    margin: 10px; 
+    border: 1px solid #2a5585; 
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Tampilan teksbox pada screenshot dan penjelasan kode saya buat */
+.kotakteks2{
+     /* Mendesain bacground  agar tidak kontras */
+    background-color: white;
+    border: 1px solid #ccc;
+    /* Mengatur border dan margin pada teks boxnya */
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Mendesain header 2 nya menjadi lebih rapih pada penulisan headernya */
+.kotakteks2 h2{
+    margin-top: 0;
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Mendesain paragraf nya menjadi lebih rapih */
+.kotakteks2 p{
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
